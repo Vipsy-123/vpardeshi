@@ -1,0 +1,232 @@
+body{
+    margin:0;
+    background-color: #2E0249;
+    text-align:center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+h1{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 5em; /* 16px = 100% = 1 em.  em gets inherited but rem stays root  */
+    margin-top: 100px;
+    line-height: 2;
+    color: #66BFBF;
+    border-width: 50%;
+    
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal ;
+    color: #66BFBF;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #14a9ae;
+}
+a{
+    color: #11999E;
+}
+a:hover{
+    color: aliceblue;
+}
+div{
+    /* background-color: #A5F1E9; */
+    padding-top: 10px;
+    
+} 
+
+img{
+    width: 28%;
+    border-color: blanchedalmond;
+    border-width: 10px;
+}
+p{
+    color: bisque;
+    font-size: 1rem;
+}
+hr{
+    border-style: dotted;
+    background-color:#2E0249;
+    height: 20px;      
+    width: 5%;  
+    border-style: none; 
+    border-top: 10px dotted rgba(212, 109, 249, 0.968);
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+ }
+.main-hr{
+    margin-top: 50px;
+ }
+.Topmost{
+    
+    background-color: #2E0249;
+    padding: 20px;
+    /* border: 10px; */
+    margin: 40px;
+}
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align:left;
+    line-height: 2;
+    margin-bottom: 100px;
+}
+.skill-1{
+    width:25%;
+    float: left;
+    margin-right: 30px;
+
+}
+.skill-2{
+    width:25%;
+    float: right;
+    margin-left: 0px;
+    
+}
+.hr1{
+     margin-top: 50px; 
+}
+.text-endline{
+    margin-bottom: 30px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 50px;
+    display: inline;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+.bottom-container{
+    background-color: #66BFBF;
+    margin-top: 40px;
+    padding: 30px;
+    padding-top: 50px;
+  }
+.footer-link{
+    margin-top: 50px auto;
+    color: #4d0360;
+    padding: 15px;
+    text-decoration: none;
+}
+.copyright{
+    color: bisque;
+}
+#robologo{
+    margin-top: 0%;
+}
+#jungle{
+    position:relative;
+    /* right:265px; */right: 0px;
+    left : 40px;
+    bottom: 120px;
+    border:black;
+
+}
+#ship{
+    position:relative;
+    /* right:700px; */
+    /* top:5px; */
+    left: 210px;
+    bottom :100px;
+    /* top : 10px; */
+    
+}
+
+#mount{
+    position: relative;
+    left : 100px;
+    width: 30%;
+}
+#cobra{
+    width: 20%;
+    position : relative;
+    top : 100px;
+    bottom : 30px;
+     right : 20px;
+}
+#anbu{
+    width : 16%;
+    position:relative;
+    top: 220px;
+    right:300px;
+    
+ }
+ 
+ #kakashi{
+     position : relative;
+     right : 40px;
+     width : 15%;
+     bottom : 50px;
+ }
+
+ #luffy{
+    width :15%;
+    position : relative;
+    right : 75px;
+ }
+ #bb{
+    position : relative;
+    right : 10px;
+    bottom : 15px;
+ }
+
+#st{
+    width:20%;
+    position : relative;
+    bottom : 50px;
+}
+
+#peakyb{
+    width :20%;
+    position: relative;
+    left : 5px;
+    top : 5px;
+    /* right : px; */
+}
+#got{
+    position : relative;
+    left : 20px;
+    width : 30%;
+    bottom : 70px;
+}
+#haikyuu{
+    position: relative;
+    width:20%;
+    right: 35%;
+    top : 20px;
+}
+#Xed{
+    position: relative;
+    width: 30%;
+    bottom : 400px;
+    left : 260px;
+}
+#levi{
+    position: relative;
+    width: 30%;
+    left : 80px;
+    top: 30px;
+}
